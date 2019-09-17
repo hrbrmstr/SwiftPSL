@@ -1,0 +1,4 @@
+module psl {
+  umbrella header "psl.h"
+  link "psl"
+}

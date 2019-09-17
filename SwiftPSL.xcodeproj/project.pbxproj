@@ -1,0 +1,711 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		"SwiftPSL::SwiftPSLPackageTests::ProductTarget" /* SwiftPSLPackageTests */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = OBJ_39 /* Build configuration list for PBXAggregateTarget "SwiftPSLPackageTests" */;
+			buildPhases = (
+			);
+			dependencies = (
+				OBJ_42 /* PBXTargetDependency */,
+			);
+			name = SwiftPSLPackageTests;
+			productName = SwiftPSLPackageTests;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		C422247C232F292D004E4C39 /* libpsl.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C422247B232F292D004E4C39 /* libpsl.5.dylib */; };
+		OBJ_30 /* SwiftPSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* SwiftPSL.swift */; };
+		OBJ_37 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
+		OBJ_48 /* CoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_19 /* CoreTests.swift */; };
+		OBJ_50 /* SwiftPSL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "SwiftPSL::SwiftPSL::Product" /* SwiftPSL.framework */; };
+		OBJ_57 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_16 /* main.swift */; };
+		OBJ_59 /* SwiftPSL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "SwiftPSL::SwiftPSL::Product" /* SwiftPSL.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C4222477232F28BC004E4C39 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "SwiftPSL::SwiftPSL";
+			remoteInfo = SwiftPSL;
+		};
+		C4222478232F28BC004E4C39 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "SwiftPSL::SwiftPSL";
+			remoteInfo = SwiftPSL;
+		};
+		C4222479232F28C0004E4C39 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "SwiftPSL::SwiftPSLTests";
+			remoteInfo = SwiftPSLTests;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C422247B232F292D004E4C39 /* libpsl.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libpsl.5.dylib; path = ../../../../usr/local/lib/libpsl.5.dylib; sourceTree = "<group>"; };
+		OBJ_11 /* psl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = psl.h; sourceTree = "<group>"; };
+		OBJ_12 /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
+		OBJ_14 /* psl-app.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "psl-app.entitlements"; sourceTree = "<group>"; };
+		OBJ_15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		OBJ_16 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		OBJ_19 /* CoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreTests.swift; sourceTree = "<group>"; };
+		OBJ_24 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		OBJ_9 /* SwiftPSL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftPSL.swift; sourceTree = "<group>"; };
+		"SwiftPSL::SwiftPSL::Product" /* SwiftPSL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SwiftPSL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"SwiftPSL::SwiftPSLTests::Product" /* SwiftPSLTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = SwiftPSLTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		"SwiftPSL::psl-app::Product" /* psl-app */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = "psl-app"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		OBJ_31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_50 /* SwiftPSL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				C422247C232F292D004E4C39 /* libpsl.5.dylib in Frameworks */,
+				OBJ_59 /* SwiftPSL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C422247A232F292D004E4C39 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C422247B232F292D004E4C39 /* libpsl.5.dylib */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		OBJ_10 /* psl */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_11 /* psl.h */,
+				OBJ_12 /* module.modulemap */,
+			);
+			name = psl;
+			path = Sources/psl;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_13 /* psl-app */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_14 /* psl-app.entitlements */,
+				OBJ_15 /* Info.plist */,
+				OBJ_16 /* main.swift */,
+			);
+			name = "psl-app";
+			path = "Sources/psl-app";
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_17 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_18 /* SwiftPSLTests */,
+			);
+			name = Tests;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_18 /* SwiftPSLTests */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_19 /* CoreTests.swift */,
+			);
+			name = SwiftPSLTests;
+			path = Tests/SwiftPSLTests;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_20 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				"SwiftPSL::psl-app::Product" /* psl-app */,
+				"SwiftPSL::SwiftPSLTests::Product" /* SwiftPSLTests.xctest */,
+				"SwiftPSL::SwiftPSL::Product" /* SwiftPSL.framework */,
+			);
+			name = Products;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		OBJ_5 /*  */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_6 /* Package.swift */,
+				OBJ_7 /* Sources */,
+				OBJ_17 /* Tests */,
+				OBJ_20 /* Products */,
+				OBJ_24 /* README.md */,
+				C422247A232F292D004E4C39 /* Frameworks */,
+			);
+			name = "";
+			sourceTree = "<group>";
+		};
+		OBJ_7 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_8 /* SwiftPSL */,
+				OBJ_10 /* psl */,
+				OBJ_13 /* psl-app */,
+			);
+			name = Sources;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_8 /* SwiftPSL */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_9 /* SwiftPSL.swift */,
+			);
+			name = SwiftPSL;
+			path = Sources/SwiftPSL;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		"SwiftPSL::SwiftPMPackageDescription" /* SwiftPSLPackageDescription */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_33 /* Build configuration list for PBXNativeTarget "SwiftPSLPackageDescription" */;
+			buildPhases = (
+				OBJ_36 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftPSLPackageDescription;
+			productName = SwiftPSLPackageDescription;
+			productType = "com.apple.product-type.framework";
+		};
+		"SwiftPSL::SwiftPSL" /* SwiftPSL */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_26 /* Build configuration list for PBXNativeTarget "SwiftPSL" */;
+			buildPhases = (
+				OBJ_29 /* Sources */,
+				OBJ_31 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftPSL;
+			productName = SwiftPSL;
+			productReference = "SwiftPSL::SwiftPSL::Product" /* SwiftPSL.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"SwiftPSL::SwiftPSLTests" /* SwiftPSLTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_44 /* Build configuration list for PBXNativeTarget "SwiftPSLTests" */;
+			buildPhases = (
+				OBJ_47 /* Sources */,
+				OBJ_49 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				OBJ_51 /* PBXTargetDependency */,
+			);
+			name = SwiftPSLTests;
+			productName = SwiftPSLTests;
+			productReference = "SwiftPSL::SwiftPSLTests::Product" /* SwiftPSLTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		"SwiftPSL::psl-app" /* psl-app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_53 /* Build configuration list for PBXNativeTarget "psl-app" */;
+			buildPhases = (
+				OBJ_56 /* Sources */,
+				OBJ_58 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				OBJ_60 /* PBXTargetDependency */,
+			);
+			name = "psl-app";
+			productName = psl_app;
+			productReference = "SwiftPSL::psl-app::Product" /* psl-app */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		OBJ_1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 9999;
+				LastUpgradeCheck = 9999;
+				TargetAttributes = {
+					"SwiftPSL::psl-app" = {
+						DevelopmentTeam = CBY22P58G8;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = OBJ_2 /* Build configuration list for PBXProject "SwiftPSL" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = OBJ_5 /*  */;
+			productRefGroup = OBJ_20 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				"SwiftPSL::SwiftPSL" /* SwiftPSL */,
+				"SwiftPSL::SwiftPMPackageDescription" /* SwiftPSLPackageDescription */,
+				"SwiftPSL::SwiftPSLPackageTests::ProductTarget" /* SwiftPSLPackageTests */,
+				"SwiftPSL::SwiftPSLTests" /* SwiftPSLTests */,
+				"SwiftPSL::psl-app" /* psl-app */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		OBJ_29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_30 /* SwiftPSL.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_37 /* Package.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_48 /* CoreTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_57 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		OBJ_42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "SwiftPSL::SwiftPSLTests" /* SwiftPSLTests */;
+			targetProxy = C4222479232F28C0004E4C39 /* PBXContainerItemProxy */;
+		};
+		OBJ_51 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "SwiftPSL::SwiftPSL" /* SwiftPSL */;
+			targetProxy = C4222478232F28BC004E4C39 /* PBXContainerItemProxy */;
+		};
+		OBJ_60 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "SwiftPSL::SwiftPSL" /* SwiftPSL */;
+			targetProxy = C4222477232F28BC004E4C39 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		OBJ_27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/Sources/psl",
+				);
+				INFOPLIST_FILE = SwiftPSL.xcodeproj/SwiftPSL_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-I/usr/local/Cellar/libpsl/0.21.0_1/include",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-L/usr/local/Cellar/libpsl/0.21.0_1/lib",
+					"-lpsl",
+				);
+				OTHER_SWIFT_FLAGS = "$(inherited) -I/usr/local/Cellar/libpsl/0.21.0_1/include";
+				PRODUCT_BUNDLE_IDENTIFIER = SwiftPSL;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = SwiftPSL;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		OBJ_28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/Sources/psl",
+				);
+				INFOPLIST_FILE = SwiftPSL.xcodeproj/SwiftPSL_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-I/usr/local/Cellar/libpsl/0.21.0_1/include",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-L/usr/local/Cellar/libpsl/0.21.0_1/lib",
+					"-lpsl",
+				);
+				OTHER_SWIFT_FLAGS = "$(inherited) -I/usr/local/Cellar/libpsl/0.21.0_1/include";
+				PRODUCT_BUNDLE_IDENTIFIER = SwiftPSL;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = SwiftPSL;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		OBJ_3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"SWIFT_PACKAGE=1",
+					"DEBUG=1",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_SWIFT_FLAGS = "$(inherited) -DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) SWIFT_PACKAGE DEBUG";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				USE_HEADERMAP = NO;
+			};
+			name = Debug;
+		};
+		OBJ_34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 5 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -package-description-version 5.1";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		OBJ_35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 5 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -package-description-version 5.1";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		OBJ_4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"SWIFT_PACKAGE=1",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_SWIFT_FLAGS = "$(inherited) -DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) SWIFT_PACKAGE";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				USE_HEADERMAP = NO;
+			};
+			name = Release;
+		};
+		OBJ_40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		OBJ_41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		OBJ_45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/Sources/psl",
+				);
+				INFOPLIST_FILE = SwiftPSL.xcodeproj/SwiftPSLTests_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-I/usr/local/Cellar/libpsl/0.21.0_1/include",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-L/usr/local/Cellar/libpsl/0.21.0_1/lib",
+					"-lpsl",
+				);
+				OTHER_SWIFT_FLAGS = "$(inherited) -I/usr/local/Cellar/libpsl/0.21.0_1/include";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = SwiftPSLTests;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		OBJ_46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/Sources/psl",
+				);
+				INFOPLIST_FILE = SwiftPSL.xcodeproj/SwiftPSLTests_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-I/usr/local/Cellar/libpsl/0.21.0_1/include",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-L/usr/local/Cellar/libpsl/0.21.0_1/lib",
+					"-lpsl",
+				);
+				OTHER_SWIFT_FLAGS = "$(inherited) -I/usr/local/Cellar/libpsl/0.21.0_1/include";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = SwiftPSLTests;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		OBJ_54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = CBY22P58G8;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/Sources/psl",
+				);
+				INFOPLIST_FILE = SwiftPSL.xcodeproj/psl_app_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-I/usr/local/Cellar/libpsl/0.21.0_1/include",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-L/usr/local/Cellar/libpsl/0.21.0_1/lib",
+					"-lpsl",
+				);
+				OTHER_SWIFT_FLAGS = "$(inherited) -I/usr/local/Cellar/libpsl/0.21.0_1/include";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
+				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = "psl-app";
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		OBJ_55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = CBY22P58G8;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/Sources/psl",
+				);
+				INFOPLIST_FILE = SwiftPSL.xcodeproj/psl_app_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-I/usr/local/Cellar/libpsl/0.21.0_1/include",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-L/usr/local/Cellar/libpsl/0.21.0_1/lib",
+					"-lpsl",
+				);
+				OTHER_SWIFT_FLAGS = "$(inherited) -I/usr/local/Cellar/libpsl/0.21.0_1/include";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
+				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = "psl-app";
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		OBJ_2 /* Build configuration list for PBXProject "SwiftPSL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_3 /* Debug */,
+				OBJ_4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_26 /* Build configuration list for PBXNativeTarget "SwiftPSL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_27 /* Debug */,
+				OBJ_28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_33 /* Build configuration list for PBXNativeTarget "SwiftPSLPackageDescription" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_34 /* Debug */,
+				OBJ_35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_39 /* Build configuration list for PBXAggregateTarget "SwiftPSLPackageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_40 /* Debug */,
+				OBJ_41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_44 /* Build configuration list for PBXNativeTarget "SwiftPSLTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_45 /* Debug */,
+				OBJ_46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_53 /* Build configuration list for PBXNativeTarget "psl-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_54 /* Debug */,
+				OBJ_55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = OBJ_1 /* Project object */;
+}
